@@ -199,7 +199,7 @@ footer a{
         transition: .3s ease;
     }
 }
-@media (max-width: 435px){
+@media (max-width: 567px){
     section#article #teks1{
         padding-left: 15px;
         padding-right: 15px;
@@ -224,5 +224,16 @@ footer a{
         font-size: 30px;
         color: white;
     }
-    
+    section#home .perbandingan h2{
+        text-align: center;
+        justify-content: center;
+        font-size: 32px;
+        color: white;
+    }
+    section#home .perbandingan{
+        padding: 30px;
+        background-color: rgba(216, 144, 10, 0.56);
+        border-radius: 40px;
+        box-shadow: 0 0 128px rgba(0, 0, 0, .3);
+    }
 }
