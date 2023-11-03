@@ -15,6 +15,7 @@ header{
     
     background-color: rgba(216, 144, 10, 0.56);
     border-radius: 40px;
+    box-shadow: 0 0 128px rgba(0, 0, 0, .3);
     
 }
 header a{
@@ -42,11 +43,51 @@ section#home {
     margin-right: 100px;
     margin-bottom: 240px;
 }
-section#home p{
+section#home .gp{
     text-align: center;
     justify-content: center;
     font-size: 37px;
     color: white;
+}
+section#home .pp{
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+    color: white;
+}
+section#home .pp1{
+    text-align: center;
+    justify-content: center;
+    font-size: 27px;
+    color: white;
+}
+section#home .general{
+    margin-bottom: 200px;
+}
+section#home .perbandingan{
+    padding: 60px;
+    background-color: rgba(216, 144, 10, 0.56);
+    border-radius: 40px;
+    box-shadow: 0 0 128px rgba(0, 0, 0, .3);
+}
+section#home .perbandingan h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 37px;
+    color: white;
+    margin-bottom: 30px;
+}
+section#home a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .15s;
+}
+section#home a:hover {
+    color: rgb(241, 241, 0);
+
+}
+section#home .pp{
+    margin-bottom: 30px;
 }
 section#about{    
     padding: 10px;
@@ -55,7 +96,6 @@ section#about{
     margin-right: 100px;
     margin-bottom: 40px;
     color: white;
-
 }
 
 section#about .title{
@@ -84,6 +124,7 @@ section#about .deskripsi{
     text-align: center;
     justify-content: center;
     font-size: 15px;
+    font-weight: 500;
 }
 section#article{
     padding: 10px;
@@ -96,6 +137,15 @@ section#article .judul{
     font-size: 40px;
     padding-top: 30px;
 }
+section#article a{
+    text-decoration: none;
+    color: white;
+    transition: .15s;
+}
+section#article a:hover{
+    color: rgb(241, 241, 0);
+}
+
 #teks1{
     padding-left: 70px;
     padding-right: 70px;
@@ -149,7 +199,7 @@ footer a{
         transition: .3s ease;
     }
 }
-@media (max-width: 425px){
+@media (max-width: 435px){
     section#article #teks1{
         padding-left: 15px;
         padding-right: 15px;
@@ -160,4 +210,19 @@ footer a{
         padding-right: 15px;
         transition: .3s ease;
     }
+    section#home {
+        padding: 10px;
+        margin-top: 240px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 240px;
+        transition: .3s ease;
+    }
+    section#home p{
+        text-align: center;
+        justify-content: center;
+        font-size: 30px;
+        color: white;
+    }
+    
 }
